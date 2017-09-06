@@ -22,6 +22,10 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 0,
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    // 文件末尾强制换行(就是代码结束处,要来个空格,相当于加一行,设置为0即可)
+    'eol-last': 0,
+    // 不允许函数括号之间存在空格
+    'space-before-function-paren': 0
   }
 }
